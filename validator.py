@@ -5,5 +5,5 @@ def valid(x):
     if val == 200:
         print("Great!, this site can be scrapped ")
     else:
-        print("Oh No,this site maybe can't be scrapped error = {val}")
+        print("Oh No,this site maybe can't be scrapped error = {val} , It will need a web-driver (selenium) ")
 valid(input("please input your url to check : "))
